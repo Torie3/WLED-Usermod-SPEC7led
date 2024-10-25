@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "../../WLED-main/WLED-main"
+		},
+		{
+			"name": "Wled-crsf-usermod-master",
+			"path": "."
+		}
+	],
+	"settings": {}
+}
