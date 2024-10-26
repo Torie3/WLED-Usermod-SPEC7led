@@ -34,6 +34,18 @@ public:
       if(pwm >= 200 && pwm <= 300 && lastpreset != 2){
         applythispreset(2);
       }
+      if(pwm >= 400 && pwm <= 500 && lastpreset != 2){
+        applythispreset(3);
+      }
+      if(pwm >= 600 && pwm <= 700 && lastpreset != 2){
+        applythispreset(4);
+      }
+      if(pwm >= 800 && pwm <= 900 && lastpreset != 2){
+        applythispreset(5);
+      }
+      if(pwm >= 1000 && pwm <= 1100 && lastpreset != 2){
+        applythispreset(6);
+      }
     }
   }
 
