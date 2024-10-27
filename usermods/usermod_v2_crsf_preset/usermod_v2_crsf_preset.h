@@ -23,28 +23,28 @@ public:
   void loop()
   {
     long currentMillis = millis();         // Get current time in milliseconds
-    if (currentMillis - lastCheck >= 1000) // Check if 1 second has passed
+    if (currentMillis - lastCheck >= 200) // Check if 1 second has passed
     {
       lastCheck = currentMillis;           
       pwm = pulseIn(RCPin, LOW) - 18000;
       DEBUG_PRINTLN(pwm);
-      if(pwm >= 20 && pwm <= 100 && lastpreset != 1){
-        applythispreset(1);
+      if(pwm >= 20 && pwm <= 100 && lastpreset != 6){
+        applythispreset(6);
       }
-      if(pwm >= 200 && pwm <= 300 && lastpreset != 2){
-        applythispreset(2);
-      }
-      if(pwm >= 400 && pwm <= 500 && lastpreset != 2){
-        applythispreset(3);
-      }
-      if(pwm >= 600 && pwm <= 700 && lastpreset != 2){
-        applythispreset(4);
-      }
-      if(pwm >= 800 && pwm <= 900 && lastpreset != 2){
+      if(pwm >= 200 && pwm <= 300 && lastpreset != 5){
         applythispreset(5);
       }
-      if(pwm >= 1000 && pwm <= 1100 && lastpreset != 2){
-        applythispreset(6);
+      if(pwm >= 400 && pwm <= 500 && lastpreset != 4){
+        applythispreset(4);
+      }
+      if(pwm >= 600 && pwm <= 700 && lastpreset != 3){
+        applythispreset(3);
+      }
+      if(pwm >= 800 && pwm <= 900 && lastpreset != 2){
+        applythispreset(2);
+      }
+      if(pwm >= 1000 && pwm <= 1100 && lastpreset != 1){
+        applythispreset(1);
       }
     }
   }
