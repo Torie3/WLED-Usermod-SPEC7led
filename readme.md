@@ -67,7 +67,20 @@ Considering these factors, we chose the PWM option, which offers a balanced appr
    <img src="/images/servo_tab.png" width="100%">
 
 *Note that it will not work when you are plugged into the pc unless you enable live mode.*
-   
+
+### hardware setup
+1) Connect the ground of your flight controller to a ground on the esp. (This is mandatory!!!, because it sets a refernce).
+
+2) Connect the led pin on your flight controller to pin 2 on the esp. This is the wire that caries the data.
+
+3) Power the esp as you want to and connect the leds like you would do on a normal Wled setup.
+
+This is an example wiring diagram, not to be exactly copied. You should do your own research on how to power your esp. We are in no instance responsible for any damage physical or material.
+
+<img src="/images/example_wiring_diagram.png" width="75%">
+
+### Esp setup
+1) go to https://espressif.github.io/esptool-js/
 
 ## 📲 Quick start guide and documentation
 
