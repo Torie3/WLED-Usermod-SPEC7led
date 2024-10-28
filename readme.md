@@ -43,20 +43,31 @@ This usermod enables connection of an ESP32 (ESP32 Devboard or ESP32-C3) to a fl
 Considering these factors, we chose the PWM option, which offers a balanced approach in terms of flexibility, performance, and ease of setup. For instructions on setting up the system, refer to the Quick Start Guide.
 
 
-## 💡 Supported light control interfaces
-- WLED app for [Android](https://play.google.com/store/apps/details?id=com.aircoookie.WLED) and [iOS](https://apps.apple.com/us/app/wled/id1475695033)
-- JSON and HTTP request APIs  
-- MQTT   
-- E1.31, Art-Net, DDP and TPM2.net
-- [diyHue](https://github.com/diyhue/diyHue) (Wled is supported by diyHue, including Hue Sync Entertainment under udp. Thanks to [Gregory Mallios](https://github.com/gmallios))
-- [Hyperion](https://github.com/hyperion-project/hyperion.ng)
-- UDP realtime  
-- Alexa voice control (including dimming and color)  
-- Sync to Philips hue lights  
-- Adalight (PC ambilight via serial) and TPM2  
-- Sync color of multiple WLED devices (UDP notifier)  
-- Infrared remotes (24-key RGB, receiver required)  
-- Simple timers/schedules (time from NTP, timezones/DST supported)  
+## 💡 quick start guide
+### Betaflight setup
+1) Make sure you flash your flight controller with servo's enabled.
+<img src="/images/betaflight flashing screen.png" width="100%">
+
+2) Set up your flight controller as you normaly would.
+  
+3) Paste this in the CLI, it will display all of your resources and their pins.
+
+   `resource`
+
+4) Find **resource LED_STRIP 1** and note the pin number behind it. In this case it is **A08**.
+   <img src="/images/cli_led_strip_pin.png" width="50%">
+5) Then write this in the cli, it will remove the pin from the led strip and it will add the pin to servo 1.
+
+   ```
+   resource LED_STRIP none
+   recource SERVO 1 "your noted pin number from step 4"
+   save
+   ```
+6) Now you are going to go to the servo tab and enter the settings, that are in the red box. The only thing you can change is the channel that the button is on that you want to use to change the presets. You can view which button does what in the receiver tab.
+   <img src="/images/servo_tab.png" width="100%">
+
+*Note that it will not work when you are plugged into the pc unless you enable live mode.*
+   
 
 ## 📲 Quick start guide and documentation
 
