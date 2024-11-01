@@ -100,7 +100,7 @@ Power the ESP as needed, and connect the LEDs like a standard WLED setup.
 ### ESP Setup
 1) **Download Firmware**
 
-In build_output/firmware, select your board and download the .bin file (avoid .bin.gz files).
+In build_output/releases, select your board and download the .bin file (avoid .bin.gz files).
 
 2) **Set Up Programming Tool**
 
