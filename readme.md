@@ -43,73 +43,85 @@ This usermod enables connection of an ESP32 (ESP32 Devboard or ESP32-C3) to a fl
 Considering these factors, we chose the PWM option, which offers a balanced approach in terms of flexibility, performance, and ease of setup. For instructions on setting up the system, refer to the Quick Start Guide.
 
 
-## 💡 quick start guide
-### Betaflight setup
-1) Make sure you flash your flight controller with servo's enabled.
+## 💡 Quick Start Guide
+**Betaflight Setup**
+1) **Enable Servo on Flight Controller**
+
+Ensure you flash your flight controller with servo enabled.
 <img src="/images/betaflight flashing screen.png" width="100%">
 
-2) Set up your flight controller as you normaly would.
-  
-3) Paste this in the CLI, it will display all of your resources and their pins.
+2) **Standard Flight Controller Setup**
 
-   `resource`
+Set up your flight controller as you normally would.
 
-4) Find **resource LED_STRIP 1** and note the pin number behind it. In this case it is **A08**.
-   <img src="/images/cli_led_strip_pin.png" width="50%">
-5) Then write this in the cli, it will remove the pin from the led strip and it will add the pin to servo 1.
+3) **Check Resource Pins in CLI**
 
-   ```
-   resource LED_STRIP none
-   recource SERVO 1 "your noted pin number from step 4"
-   save
-   ```
-6) Now you are going to go to the servo tab and enter the settings, that are in the red box. The only thing you can change is the channel that the button is on that you want to use to change the presets. You can view which button does what in the receiver tab.
-   <img src="/images/servo_tab.png" width="100%">
+Open the CLI and paste the following command to display all resources and their pin assignments:
 
-*Note that it will not work when you are plugged into the pc unless you enable live mode.*
+`resource`
 
-### hardware setup
-1) Connect the ground of your flight controller to a ground on the esp. (This is mandatory!!!, because it sets a refernce).
+Find resource LED_STRIP 1 in the output and note the pin number next to it (e.g., A08).
+<img src="/images/cli_led_strip_pin.png" width="50%">
 
-2) Connect the led pin on your flight controller to pin 2 on the esp. This is the wire that caries the data.
+4) **Reassign LED Strip Pin to Servo**
 
-3) Power the esp as you want to and connect the leds like you would do on a normal Wled setup.
+Enter the following commands in the CLI to remove the LED strip assignment from this pin and assign it to Servo 1:
 
-This is an example wiring diagram, not to be exactly copied. You should do your own research on how to power your esp. We are in no instance responsible for any damage physical or material.
+```
+resource LED_STRIP none
+resource SERVO 1 "your noted pin number from step 4"
+save
+```
+
+5) **Configure Servo Settings**
+
+Go to the Servo tab and adjust the settings marked in the red box in the image below. Only the channel associated with the button to switch presets needs to be adjusted here. In the Receiver tab, you can check which button corresponds to which action. (We recommend using a 6-button switch on your controller; however, other setups may work, although results may vary.)
+<img src="/images/servo_tab.png" width="100%">
+
+***Note: This configuration won’t work when connected to your computer unless “live mode” is enabled.***
+
+### Hardware Setup
+1) **Connect Ground**
+
+Connect the ground on your flight controller to the ground on the ESP. This is mandatory, as it sets a shared reference.
+
+2) **Connect Data Pin**
+
+Connect the LED pin on your flight controller to pin 2 on the ESP. This wire carries the data.
+
+3) **Power the ESP and LEDs**
+
+Power the ESP as needed, and connect the LEDs like a standard WLED setup.
+
+***Note: The following diagram provides an example for wiring. Do not copy it exactly; please research how to power your ESP safely. We are not liable for any physical or material damage.***
 
 <img src="/images/example_wiring_diagram.png" width="75%">
 
-### Esp setup
-1) go to https://espressif.github.io/esptool-js/
+### ESP Setup
+1) **Download Firmware**
 
-## 📲 Quick start guide and documentation
+In build_output/firmware, select your board and download the .bin file (avoid .bin.gz files).
 
-See the [documentation on our official site](https://kno.wled.ge)!
+2) **Set Up Programming Tool**
 
-[On this page](https://kno.wled.ge/basics/tutorials/) you can find excellent tutorials and tools to help you get your new project up and running!
+Visit [Espressif’s esptool-js](https://espressif.github.io/esptool-js/) and set the program baud rate to 460800.
 
-## 🖼️ User interface
-<img src="/images/macbook-pro-space-gray-on-the-wooden-table.jpg" width="50%"><img src="/images/walking-with-iphone-x.jpg" width="50%">
+3) **Connect ESP to Computer**
 
-## 💾 Compatible hardware
+Plug your ESP into your computer via USB.
 
-See [here](https://kno.wled.ge/basics/compatible-hardware)!
+4) **Establish Connection**
 
-## ✌️ Other
+Click “Connect” and select the correct COM port.
 
-Licensed under the MIT license  
-Credits [here](https://kno.wled.ge/about/contributors/)!
+5) **Upload Firmware**
 
-Join the Discord server to discuss everything about WLED!
+Click “Choose File” and select the .bin file downloaded in Step 1, then click “Program” and wait until the process completes.
 
-<a href="https://discord.gg/QAh7wJHrRM"><img src="https://discordapp.com/api/guilds/473448917040758787/widget.png?style=banner2" width="25%"></a>
+### Final Steps
+Now, set up WLED as you normally would. Ensure you have six presets; without them, you may encounter errors when switching. This setup is designed to work with 6-button switches (e.g., Radiomaster Boxer and TX16s), but a future revision will support 2- and 3-position switches.
 
-Check out the WLED [Discourse forum](https://wled.discourse.group)!  
-
-You can also send me mails to [dev.aircoookie@gmail.com](mailto:dev.aircoookie@gmail.com), but please, only do so if you want to talk to me privately.  
-
-If WLED really brightens up your day, you can [![](https://img.shields.io/badge/send%20me%20a%20small%20gift-paypal-blue.svg?style=flat-square)](https://paypal.me/aircoookie)
-
+Enjoy your new LED setup on your spec 7 quad!
 
 *Disclaimer:*   
 
