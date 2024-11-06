@@ -1,0 +1,5 @@
+makuna/NeoPixelBus @ 2.7.5
+fastled/FastLED @ 3.6.0
+https://github.com/Aircoookie/ESPAsyncWebServer.git#v2.2.1
+IRremoteESP8266 @ 2.8.2
+https://github.com/pbolduc/AsyncTCP.git @ 1.2.0
