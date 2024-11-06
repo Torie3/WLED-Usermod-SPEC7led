@@ -87,7 +87,7 @@ Connect the ground on your flight controller to the ground on the ESP. This is m
 
 2) **Connect Data Pin**
 
-Connect the LED pin on your flight controller to pin 2 on the ESP. This wire carries the data.
+Connect the LED pin on your flight controller to gpio 2 on the ESP (make sure it's not pin 2, because on some boards they aren't the same). This wire carries the data.
 
 3) **Power the ESP and LEDs**
 
