@@ -98,30 +98,52 @@ Power the ESP as needed, and connect the LEDs like a standard WLED setup.
 <img src="/images/example_wiring_diagram.png" width="75%">
 
 ### ESP Setup
+
+This guide covers setup on Windows only. (Linux users should be able to manage on their own. Mac users: consider upgrading your hardware! Just kidding 😊)
+
 1) **Download Firmware**
 
-In build_output/releases, select your board and download the .bin file (avoid .bin.gz files).
+   - Navigate to `build_output/releases`, select the appropriate folder for your board, and download the `.bin` firmware file.
+   - For ESP32 devices, download the bootloader file located in `.pio/build/your_board_here`.
 
 2) **Set Up Programming Tool**
 
-Visit [Espressif’s esptool-js](https://espressif.github.io/esptool-js/) and set the program baud rate to 460800.
+   - Follow the steps in [this guide](https://phoenixnap.com/kb/how-to-install-python-3-windows) to install Python. You may skip steps 4 and 7 as they are optional.
+   - Once Python is installed, open Command Prompt (cmd) and run `pip install esptool` to install `esptool`.
 
 3) **Connect ESP to Computer**
 
-Plug your ESP into your computer via USB.
+   - While holding the boot button on the ESP, plug it into your PC.
+   - Open Device Manager and note the COM port your ESP is connected to.
 
-4) **Establish Connection**
+4) **Upload Firmware**
 
-Click “Connect” and select the correct COM port.
+   - First, install the bootloader:
+     ```bash
+     py -m esptool -p com(your_com_port) -b 460800 write_flash 0x0 (path_to_bootloader_file)
+     ```
+     **Example**:
+     ```bash
+     py -m esptool -p com13 -b 460800 write_flash 0x0 C:\Users\YourUser\Downloads\WLED-main\.pio\build\esp32c3dev\bootloader.bin
+     ```
+     - Once done, disconnect and reconnect the ESP while holding the boot button.
 
-5) **Upload Firmware**
-
-Click “Choose File” and select the .bin file downloaded in Step 1, then click “Program” and wait until the process completes.
+   - Now, upload the firmware:
+     ```bash
+     py -m esptool -p com(your_com_port) -b 460800 write_flash 0x10000 (path_to_firmware_file)
+     ```
+     **Example**:
+     ```bash
+     py -m esptool -p com13 -b 460800 write_flash 0x10000 C:\Users\YourUser\Downloads\WLED-main\build_output\release\WLED_0.14.4_ESP32-C3.bin
+     ```
+   - After completion, disconnect the ESP from your PC.
 
 ### Final Steps
-Now, set up WLED as you normally would. Ensure you have six presets; without them, you may encounter errors when switching. This setup is designed to work with 6-button switches (e.g., Radiomaster Boxer and TX16s), but a future revision will support 2- and 3-position switches.
 
-Enjoy your new LED setup on your spec 7 quad!
+Set up WLED as usual, ensuring you create six presets to avoid errors when switching. This setup is compatible with six-button switches (e.g., Radiomaster Boxer and TX16s). Future updates will include support for two- and three-position switches.
+
+Enjoy your new LED setup on your Spec 7 quad!
+
 
 *Disclaimer:*   
 
