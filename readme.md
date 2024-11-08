@@ -12,7 +12,7 @@
 
 # Welcome to this wled Usermod ✨
 
-This usermod enables connection of an ESP32 (ESP32 Devboard or ESP32-C3) to a flight controller, allowing users to select specific presets with a switch on their remote. Originally developed for Spec7 quads, this mod can be applied to any project where a preset needs to be activated based on a PWM signal received on a designated pin.
+This usermod enables connection of an ESP32C3 (you can build the firmware for other boards) to a flight controller , allowing users to select specific presets with a switch on their remote. Originally developed for Spec7 quads, this mod can be applied to any project where a preset needs to be activated based on a PWM signal received on a designated pin.
 
 ## ⚙️ How It Works
 **WLED** is a project that allows easy control of addressable RGB lights. Our focus is on enabling users to switch between different presets set up in the WLED app using a physical switch on the controller. This is achieved by leveraging a built-in feature in **Betaflight or Inav** that generates a PWM (Pulse Width Modulation) signal on a specific pin—typically used for controlling servos. While we could have read data directly from the receiver, we opted for the PWM approach for several reasons outlined below.
