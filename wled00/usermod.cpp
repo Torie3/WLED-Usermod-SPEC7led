@@ -17,6 +17,7 @@ long lastCheck = 0; // Store the last time pulses were checked
 int pwm;
 int lastpreset = 0;
 static void applythispreset(int calledpreset);
+static void getPWM();
 
 // gets called once at boot. Do all initialization that doesn't depend on network here
 void userSetup()
@@ -30,7 +31,7 @@ void userConnected()
 }
 
 // loop. You can use "if (WLED_CONNECTED)" to check for successful connection
-void userLoop()
+/*void userLoop()
 {
     long currentMillis = millis();        // Get current time in milliseconds
     if (currentMillis - lastCheck >= 200) // Check if 1 second has passed
@@ -64,6 +65,17 @@ void userLoop()
         }
     }
 }
+*/
+void userLoop()
+{
+    long currentMillis = millis();
+    if (currentMillis - lastCheck >= 200)
+    {
+        lastCheck = currentMillis;
+        getPWM();
+        checkPWM();
+    }
+}
 
 static void applythispreset(int calledpreset)
 {
@@ -71,4 +83,20 @@ static void applythispreset(int calledpreset)
     lastpreset = calledpreset;
     DEBUG_PRINT("applied preset ");
     DEBUG_PRINTLN(calledpreset);
+}
+
+static void getPWM()
+{
+    pwm = pulseIn(RCPin, LOW) - 18000;
+    DEBUG_PRINTLN(pwm);
+}
+
+static void checkPWM()
+{
+    for (int i = 1; i <= 6; i++)
+    {
+        if (pwm >= (i*100)-100 && pwm <= i*100 && lastpreset != 7-i){
+            applythispreset(7-i);
+        }
+    }
 }
