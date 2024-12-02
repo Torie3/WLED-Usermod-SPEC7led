@@ -19,3 +19,7 @@
 ## 28/11/2024 
 
 *1)* buck converter schema opstellen
+
+## 28/11/2024 
+
+*1)* buck converter schema verder opstellen *2)* weerstanden berekenen voor Vstart en vstop
