@@ -20,6 +20,15 @@
 
 *1)* buck converter schema opstellen
 
-## 28/11/2024 
+## 1/12/2024 
 
 *1)* buck converter schema verder opstellen *2)* weerstanden berekenen voor Vstart en vstop
+
+## 6/1/2025
+Pc deed raar => avontuur met ict
+
+## 9/1/2025
+Schema op pc zetten.
+## 14/1/2025
+Geen school wegens staking.
+
