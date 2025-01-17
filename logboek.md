@@ -31,4 +31,6 @@ Pc deed raar => avontuur met ict
 Schema op pc zetten.
 ## 14/1/2025
 Geen school wegens staking.
+## 16/1/2025
+Afwezig wegens ziek.
 
