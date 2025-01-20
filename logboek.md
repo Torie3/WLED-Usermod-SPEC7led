@@ -33,4 +33,7 @@ Schema op pc zetten.
 Geen school wegens staking.
 ## 16/1/2025
 Afwezig wegens ziek.
-
+## 20/1/2025
+*1)* Schema afgewerkt.
+*2)* Bestanden voor pcb op github zetten.
+*3)* Beginnen aan pcb layout.
