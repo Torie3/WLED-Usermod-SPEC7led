@@ -37,3 +37,8 @@ Afwezig wegens ziek.
 *1)* Schema afgewerkt.
 *2)* Bestanden voor pcb op github zetten.
 *3)* Beginnen aan pcb layout (footprints toevoegen)
+## 23/1/2025
+*1)* Footprints maken
+*2)* Footprints toewijzen
+*3)* Excel bestand met alle nodige onderdelen
+
