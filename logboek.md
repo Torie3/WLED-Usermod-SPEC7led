@@ -51,4 +51,4 @@ leerlingencontacten
 Afwezig wegens ziekte
 ## 10/2/2025
 *1)* pcb layout afwerken
-
+*2)* routing van de pcb
