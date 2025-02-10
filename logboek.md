@@ -41,4 +41,14 @@ Afwezig wegens ziek.
 *1)* Footprints maken
 *2)* Footprints toewijzen
 *3)* Excel bestand met alle nodige onderdelen
+## 27/1/2025
+*1)* pcb layout
+## 30/1/2025
+*1)* pcb layout
+## 3/2/2025
+leerlingencontacten
+## 6/2/2025
+Afwezig wegens ziekte
+## 10/2/2025
+*1)* pcb layout afwerken
 
