@@ -52,3 +52,5 @@ Afwezig wegens ziekte
 ## 10/2/2025
 *1)* pcb layout afwerken
 *2)* routing van de pcb
+## 17/2/2025
+*1)* nakijken schema pcb
