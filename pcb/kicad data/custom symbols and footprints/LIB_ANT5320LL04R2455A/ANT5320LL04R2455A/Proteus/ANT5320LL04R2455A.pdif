@@ -1,0 +1,100 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "ANT5320LL04R2455A"
+   (description "Chip Antenna Linear Dual Band 50Ohm 2.4GHz/5GHz 2.09dBi/4.32dBi 2-Pin SMD T/R - Tape and Reel")
+   (family "ANA")
+   (package "ANTC5320X170N")
+   (attribute "Datasheet Link" "")
+   (attribute "Geometry.Height" "1.7mm")
+   (attribute "Mouser2 Part Number" "")
+   (attribute "Mouser2 Price/Stock" "")
+   (attribute "Manufacturer_Name" "Pulse Electronics")
+   (attribute "Manufacturer_Part_Number" "ANT5320LL04R2455A")
+   (gate
+    (symbol "ANT5320LL04R2455A")
+    (pin "FEED" 1 IP)
+    (pin "NC" 2 NC)
+   )
+  )
+  (symbol "ANT5320LL04R2455A"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 700 100) (pt 700 -200) (pt 200 -200) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "ANTC5320X170N"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed true)
+      (pt -3.575 1.55)
+      (pt 3.575 1.55)
+      (pt 3.575 -1.55)
+      (pt -3.575 -1.55)
+      (pt -3.575 1.55))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2.65 1)
+      (pt 2.65 1)
+      (pt 2.65 -1)
+      (pt -2.65 -1)
+      (pt -2.65 1))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -2.65 0.475)
+      (pt -2.125 1))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 2.6 1.45)
+      (pt -3.475 1.45)
+      (pt -3.475 -1.45)
+      (pt 2.6 -1.45))))
+   (leg 1 (pt -2.6 0) (padstack 0))
+   (leg 2 (pt 2.6 0) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 1.05 2.2 0 0 90))
+   )
+   (model "ANT5320LL04R2455A.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

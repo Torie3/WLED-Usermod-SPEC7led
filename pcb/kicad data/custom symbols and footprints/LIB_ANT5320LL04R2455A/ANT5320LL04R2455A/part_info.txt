@@ -1,0 +1,9 @@
+Manufacturer=Pulse Electronics
+PartNumber=ANT5320LL04R2455A
+PartCategory=Antenna
+PackageCategory=Antennas Chip
+PinCount=2
+Version=1.1
+Released=2021-07-30 10:42:22
+Downloaded=2025-01-20 13:13:07
+3D=Y

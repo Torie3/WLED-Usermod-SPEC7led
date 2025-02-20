@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'ANT5320LL04R2455A'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER2_PART_NUMBER", "MOUSER2_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Pulse Electronics", "ANT5320LL04R2455A" (!) = "", "ANTC5320X170N", "Antennas Chip", "", "", "Chip Antenna Linear Dual Band 50Ohm 2.4GHz/5GHz 2.09dBi/4.32dBi 2-Pin SMD T/R - Tape and Reel", "", "1.7 mm"
+END_PART
+
+END.

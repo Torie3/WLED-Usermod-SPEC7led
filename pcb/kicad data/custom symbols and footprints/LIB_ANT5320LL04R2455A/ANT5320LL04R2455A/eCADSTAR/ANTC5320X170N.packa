@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "ANT5320LL04R2455A"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2021-07-30-10:42:22)
+    (mountForm default
+        (footprintRef "ANTC5320X170N")
+        (spec "System")
+    )
+)

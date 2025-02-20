@@ -1,0 +1,94 @@
+
+(EDIF
+  (rename &ANT5320LL04R2455A "ANT5320LL04R2455A")
+  (EDIFVersion 2 0 0)
+  (EDIFLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timestamp 2025 01 20 13 13 07)
+      (dataOrigin "14907500/1572157/2.50/2/3/Antenna")
+      (program "SamacSys ECAD Model ANT5320LL04R2455A"
+        (version "1.1"))))
+  (library
+  (rename &ANT5320LL04R2455A "ANT5320LL04R2455A")
+    (EDIFLevel 0)
+    (technology
+      (numberDefinition (scale 1 (e 254 -6) (unit DISTANCE)))
+      (userData GRIDRESOLUTION (integer 50 50))
+      (figureGroup DEFAULT (pathWidth 10) (textHeight 100))
+      (figureGroup PROPERTY (pathWidth 10) (textHeight 90))
+      (figureGroup PINNUMBER (pathWidth 10) (textHeight 90))
+      (figureGroup PINNAME (pathWidth 10) (textHeight 90))
+      (figureGroup COMMENT (pathWidth 10) (textHeight 90))
+      (figureGroup PIN (pathWidth 10) (textHeight 90))
+      (figureGroup GRAPHIC (pathWidth 10) (textHeight 100))
+    )
+    (cell
+      (rename &ANT5320LL04R2455A "ANT5320LL04R2455A")
+      (cellType GENERIC)
+      (view
+        (rename NORMAL "Normal")
+        (viewType SCHEMATIC)
+        (interface
+          (designator "ANT")
+          (property (rename PACKAGENAME "PackageName") (string "ANT5320LL04R2455A"))
+          (property (rename ISHETEROGENEOUS "IsHeterogeneous") (string "False"))
+          (property (rename DEVICESINVIEW "DevicesInView") (string "1"))
+          (property (rename DEVICESINPACKAGE "DevicesInPackage") (string "1"))
+          (property (rename DEVICEDESIGNATOR "DeviceDesignator") (string "A"))
+          (property (rename DEVICENUMBERING "DeviceNumbering") (string "Alpha"))
+          (property (rename PCB_32_FOOTPRINT "PCB Footprint") (string "ANTC5320X170N"))
+          (property (rename &Mouser2_Part_Number "Mouser2 Part Number") (string ""))
+          (property (rename &Mouser2_Price_Stock "Mouser2 Price/Stock") (string ""))
+          (property (rename &Manufacturer_Name "Manufacturer_Name") (string "Pulse Electronics"))
+          (property (rename &Manufacturer_Part_Number "Manufacturer_Part_Number") (string "ANT5320LL04R2455A"))
+          (property (rename &Description "Description") (string "Chip Antenna Linear Dual Band 50Ohm 2.4GHz/5GHz 2.09dBi/4.32dBi 2-Pin SMD T/R - Tape and Reel"))
+          (property (rename &Datasheet_Link "Datasheet Link") (string ""))
+          (property (rename &Height "Height") (string "1.7 mm"))
+          (property (rename &_60__32_VALUE_32__62_ "Value") (string "ANT5320LL04R2455A"))
+          (property (rename VALUE "Value") (string "Value"))
+          (port
+            (rename &FEED "FEED")
+            (designator "1")
+            (property (rename ORDER "Order") (string "0") (owner "OrCAD"))
+          )
+          (port
+            (rename &NC "NC")
+            (designator "2")
+            (property (rename ORDER "Order") (string "1") (owner "OrCAD"))
+          )
+          (symbol
+            (portImplementation
+              (name &FEED (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt -200 -100) (pt 0 -100))))
+              (connectLocation (figure GRAPHIC (dot (pt -200 -100))))
+            )
+            (portImplementation
+              (name &NC (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt -200 -200) (pt 0 -200))))
+              (connectLocation (figure GRAPHIC (dot (pt -200 -200))))
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 0 0)
+                  (pt 500 0)
+                  (pt 500 -300)
+                  (pt 0 -300)
+                  (pt 0 0)
+                )
+              )
+            )
+            (keywordDisplay DESIGNATOR (display PROPERTY (justify LOWERLEFT) (orientation R0) (origin (pt 550 130))))
+            (propertyDisplay &_60__32_VALUE_32__62_ (display PROPERTY (justify LOWERLEFT) (orientation R0) (origin (pt 550 30))))
+          )
+        )
+      )
+    )
+  )
+)

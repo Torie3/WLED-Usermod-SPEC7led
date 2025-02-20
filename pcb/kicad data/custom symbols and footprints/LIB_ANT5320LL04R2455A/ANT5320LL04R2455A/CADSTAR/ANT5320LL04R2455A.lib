@@ -1,0 +1,16 @@
+.ANT5320LL04R2455A :1 ;Chip Antenna Linear Dual Band 50Ohm 2.4GHz/5GHz 2.09dBi/4.32dBi 2-Pin SMD T/R - Tape and Reel
+ANTC5320X170N
+*STM ANT
+*NGS
+*PLB 1="FEED" 2="NC"
+*MXP 2
+*DFN ANT5320LL04R2455A
+~!Mouser2 Part Number (-)
+~!Mouser2 Price/Stock (-)
+~!Manufacturer_Name (Pulse Electronics)
+~!Manufacturer_Part_Number (ANT5320LL04R2455A)
+~!Link Datasheet (-)
+~!Height (1.7mm)
+~!3D_Model (ANT5320LL04R2455A)
+ANT5320LL04R2455A
+1.1!I 2.1!U 
