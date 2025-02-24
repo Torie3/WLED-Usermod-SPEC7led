@@ -97,6 +97,10 @@ Power the ESP as needed, and connect the LEDs like a standard WLED setup.
 
 <img src="/images/example_wiring_diagram.png" width="75%">
 
+#### Custom PCB
+
+
+
 ### ESP Setup
 
 This guide covers setup on Windows only. (Linux users should be able to manage on their own. Mac users: consider upgrading your hardware! Just kidding 😊)
