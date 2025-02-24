@@ -54,3 +54,10 @@ Afwezig wegens ziekte
 *2)* routing van de pcb
 ## 17/2/2025
 *1)* nakijken schema pcb
+## 20/2/2025
+*1)* bedradingsschema pcb maken
+*2)* alle bestanden op github zetten
+## 24/2/2025
+*1)* documentatie pcb schrijven in .readme file
+*2)* esptool installeren, pip bijwerken
+*3)* commando's voor het programmeren van de esp32-c3 op word bestand gezet
