@@ -99,9 +99,13 @@ Power the ESP as needed, and connect the LEDs like a standard WLED setup.
 
 #### Custom PCB
 
-<img src="/images/pcb_3D_model.png" width="75%">
+<img src="/images/pcb_3D_model.png" width="50%">
 
-We recently introduced a custom PCB that integrates all the necessary components to run WLED on drones. This board includes a **5V@3A buck converter**, capable of stepping down **12V-30V** to a stable **5V** supply.
+We recently introduced a custom PCB that integrates all the necessary components to run WLED on drones. This board includes a **5V@3A buck converter**, capable of stepping down **3s-6s voltage** to a stable **5V** supply.
+
+The PCB measures **29mm × 21mm**, making it a perfect fit for a Spec7 quadcopter. Since only one side of the board is populated, you don’t need to worry about clearance on the mounting surface.
+
+However, we highly recommend placing a **layer of electrical tape** beneath the PCB to prevent potential short circuits, as carbon fiber is conductive.
 
 At its core, the board features an **ESP32-C3**, complete with all essential supporting components for power management and Wi-Fi transmission.
 
@@ -112,6 +116,10 @@ Additionally, we've included an extra GPIO pin, which can be used for:
 - Connecting an additional LED strip
 
 This extra GPIO is available as both a 3.3V pad and a 5V pad (via the logic level converter), allowing seamless integration with LED strips.
+
+Below is the wiring diagram. Please note that your **flight controller may vary**, so be sure to check its specifications before wiring.
+
+<img src="/images/wiring_diagram_pcb.png" width="75%">
 
 ### ESP Setup
 
