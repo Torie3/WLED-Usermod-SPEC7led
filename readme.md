@@ -144,6 +144,9 @@ This guide covers setup on Windows only. (Linux users should be able to manage o
 
 4) **Upload Firmware**
 
+***Note: These commands should be executed in the Command Prompt (cmd) on your Windows PC. You do not need to run it as an administrator.
+If you're unsure how to open Command Prompt, click the Windows Start button, type `cmd`, and select the Command Prompt application. This will open a terminal where you can enter commands.***
+
    - First, install the bootloader:
      ```bash
      py -m esptool -p com(your_com_port) -b 460800 write_flash 0x0 (path_to_bootloader_file)
