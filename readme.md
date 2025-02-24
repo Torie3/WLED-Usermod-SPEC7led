@@ -119,6 +119,8 @@ This extra GPIO is available as both a 3.3V pad and a 5V pad (via the logic leve
 
 Below is the wiring diagram. Please note that your **flight controller may vary**, so be sure to check its specifications before wiring.
 
+***Note: you should have a common ground between the PCB and flight controller to ensure proper operation of the PCB.***
+
 <img src="/images/wiring_diagram_pcb.png" width="75%">
 
 ### ESP Setup
