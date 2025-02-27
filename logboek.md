@@ -61,3 +61,8 @@ Afwezig wegens ziekte
 *1)* documentatie pcb schrijven in .readme file
 *2)* esptool installeren, pip bijwerken
 *3)* commando's voor het programmeren van de esp32-c3 op word bestand gezet
+
+## 27/2/2025
+*1)* firmware uploaden op esp32-c3 (moeilijker dan het leek)
+*2)* readme, software installatie aanpassen
+*3)* Lezen over hoe pcb's te maken voor industriële aplicaties.
