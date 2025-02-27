@@ -101,6 +101,8 @@ Power the ESP as needed, and connect the LEDs like a standard WLED setup.
 
 <img src="/images/pcb_3D_model.png" width="50%">
 
+***Warning: this pcb has not yet been tested, you can find all of the design files under the folder pcb. You should check the pcb design befor ordering.***
+
 We recently introduced a custom PCB that integrates all the necessary components to run WLED on drones. This board includes a **5V@3A buck converter**, capable of stepping down **3s-6s voltage** to a stable **5V** supply.
 
 The PCB measures **29mm × 21mm**, making it a perfect fit for a Spec7 quadcopter. Since only one side of the board is populated, you don’t need to worry about clearance on the mounting surface.
@@ -149,21 +151,21 @@ If you're unsure how to open Command Prompt, click the Windows Start button, typ
 
    - First, install the bootloader:
      ```bash
-     py -m esptool -p com(your_com_port) -b 460800 write_flash 0x0 (path_to_bootloader_file)
+    esptool -p com(your_com_port) -b 460800 write_flash 0x0 (path_to_bootloader_file)
      ```
      **Example**:
      ```bash
-     py -m esptool -p com13 -b 460800 write_flash 0x0 C:\Users\YourUser\Downloads\WLED-main\.pio\build\esp32c3dev\bootloader.bin
+    esptool -p com13 -b 460800 write_flash 0x0 C:\Users\YourUser\Downloads\WLED-main\.pio\build\esp32c3dev\bootloader.bin
      ```
      - Once done, disconnect and reconnect the ESP while holding the boot button.
 
    - Now, upload the firmware:
      ```bash
-     py -m esptool -p com(your_com_port) -b 460800 write_flash 0x10000 (path_to_firmware_file)
+     esptool -p com(your_com_port) -b 460800 write_flash 0x10000 (path_to_firmware_file)
      ```
      **Example**:
      ```bash
-     py -m esptool -p com13 -b 460800 write_flash 0x10000 C:\Users\YourUser\Downloads\WLED-main\build_output\release\WLED_0.14.4_ESP32-C3.bin
+     esptool -p com13 -b 460800 write_flash 0x10000 C:\Users\YourUser\Downloads\WLED-main\build_output\release\WLED_0.14.4_ESP32-C3.bin
      ```
    - After completion, disconnect the ESP from your PC.
 
