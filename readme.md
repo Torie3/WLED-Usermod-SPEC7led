@@ -151,11 +151,11 @@ If you're unsure how to open Command Prompt, click the Windows Start button, typ
 
    - First, install the bootloader:
      ```bash
-    esptool -p com(your_com_port) -b 460800 write_flash 0x0 (path_to_bootloader_file)
+     esptool -p com(your_com_port) -b 460800 write_flash 0x0 (path_to_bootloader_file)
      ```
      **Example**:
      ```bash
-    esptool -p com13 -b 460800 write_flash 0x0 C:\Users\YourUser\Downloads\WLED-main\.pio\build\esp32c3dev\bootloader.bin
+     esptool -p com13 -b 460800 write_flash 0x0 C:\Users\YourUser\Downloads\WLED-main\.pio\build\esp32c3dev\bootloader.bin
      ```
      - Once done, disconnect and reconnect the ESP while holding the boot button.
 
