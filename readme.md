@@ -103,6 +103,8 @@ Power the ESP as needed, and connect the LEDs like a standard WLED setup.
 
 ***Warning: this pcb has not yet been tested, you can find all of the design files under the folder pcb. You should check the pcb design befor ordering.***
 
+***If you want to order and test this pcb, we have added an excel file that includes all of the components. The components can be ordered from mouser and JLCPCB. Feel free to use other components.***
+
 We recently introduced a custom PCB that integrates all the necessary components to run WLED on drones. This board includes a **5V@3A buck converter**, capable of stepping down **3s-6s voltage** to a stable **5V** supply.
 
 The PCB measures **29mm × 21mm**, making it a perfect fit for a Spec7 quadcopter. Since only one side of the board is populated, you don’t need to worry about clearance on the mounting surface.
