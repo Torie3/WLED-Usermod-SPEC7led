@@ -66,3 +66,12 @@ Afwezig wegens ziekte
 *1)* firmware uploaden op esp32-c3 (moeilijker dan het leek)
 *2)* readme, software installatie aanpassen
 *3)* Lezen over hoe pcb's te maken voor industriële aplicaties.
+
+## 10/3/2025
+*1)* Kleine aanpassingen maken aan pcb (verplaatsen componenten).
+*2)* Verder aan excel bestand gewerkt met onderdelen in.
+
+## 13/3/2025
+*1)* Excel bestand afgewerkt met onderdelen.
+*2)* Excel bestand in github gezet.
+*3)* Documentatie aangepast (verwijzing naar excel bestand voor mensen die het willen maken).
