@@ -75,3 +75,5 @@ Afwezig wegens ziekte
 *1)* Excel bestand afgewerkt met onderdelen.
 *2)* Excel bestand in github gezet.
 *3)* Documentatie aangepast (verwijzing naar excel bestand voor mensen die het willen maken).
+## 17/3/2025, 20/3/2025, 24/3/2025
+Aan vluchtcontroller werken (wegens geen tijd om dit project af te ronden thuis).
