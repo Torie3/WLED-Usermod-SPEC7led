@@ -75,5 +75,12 @@ Afwezig wegens ziekte
 *1)* Excel bestand afgewerkt met onderdelen.
 *2)* Excel bestand in github gezet.
 *3)* Documentatie aangepast (verwijzing naar excel bestand voor mensen die het willen maken).
+
 ## 17/3/2025, 20/3/2025, 24/3/2025
+
 Aan vluchtcontroller werken (wegens geen tijd om dit project af te ronden thuis).
+
+Project is afgerond en getest (maar voor finale versie nog geen geld)
+
+# Nieuw: Vluchtcontroller
+De hersenen van een drone: een kleine pcb met 20x20 mouting pattern waarop BetaFlight staat. Een eerste versie is al gemaakt (standaard), maar nu wil ik een 2e versie maken. De tweede versie heeft een ingebouwde ELRS ontvanger, zodat we deze niet meer ergens moeten proppen en het gewoon mooi in elkaar past. 
