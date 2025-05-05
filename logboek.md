@@ -84,3 +84,12 @@ Project is afgerond en getest (maar voor finale versie nog geen geld)
 
 # Nieuw: Vluchtcontroller
 De hersenen van een drone: een kleine pcb met 20x20 mouting pattern waarop BetaFlight staat. Een eerste versie is al gemaakt (standaard), maar nu wil ik een 2e versie maken. De tweede versie heeft een ingebouwde ELRS ontvanger, zodat we deze niet meer ergens moeten proppen en het gewoon mooi in elkaar past. 
+
+## 24/4/2025
+Wifi antenne elrs receiver (esp32c3 chip) design.
+
+## 28/4/2025
+Silcksreen design
+
+## 5/5/2025
+Usb-c ipv micro usb
