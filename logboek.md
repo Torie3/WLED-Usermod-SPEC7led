@@ -95,3 +95,7 @@ Silcksreen design
 Usb-c ipv micro usb
 ## 12/5/2025
 Hulp aan Mulan met laser cutter
+## 15/5/2025
+1) verder usb-c installatie (beseft dat het niet ging passen op de bestaande lay out)
+2) layout helemaal opnieuw begonnen
+3) toevoegen van 3d modellen aan de pcb render
