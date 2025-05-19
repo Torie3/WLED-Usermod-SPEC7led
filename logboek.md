@@ -99,3 +99,5 @@ Hulp aan Mulan met laser cutter
 1) verder usb-c installatie (beseft dat het niet ging passen op de bestaande lay out)
 2) layout helemaal opnieuw begonnen
 3) toevoegen van 3d modellen aan de pcb render
+## 19/5/2025
+1) Layout van pcb verder afwerken (nog veel werk aan), je moet alle onderdelen op een klein oppervlak zien te puzzelen.
