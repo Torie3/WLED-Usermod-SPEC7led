@@ -101,3 +101,25 @@ Hulp aan Mulan met laser cutter
 3) toevoegen van 3d modellen aan de pcb render
 ## 19/5/2025
 1) Layout van pcb verder afwerken (nog veel werk aan), je moet alle onderdelen op een klein oppervlak zien te puzzelen.
+
+# schooljaar 2025-2026
+
+## (Achtergrond) 
+
+In de vakantie:
+
+Ik heb de pcb van de vluchtcontroller met elrs besteld op jlcpcb en de componenten op lcsc. Deze heb ik dan gesoldeerd, maar hierbij blijken er problemen te zijn met de power supply design van de elrs receiver. De hele vluchtcontroller startte op, buiten de receiver. De receiver werkte wel toen enkel de usb kabel was ingestoken. Hierdoor vermoedded ik dus dat er een probleem was met de PSU, die misschien te onstabiel was. Ik ben reeds aan een nieuw ontwerp met een verbeterde power supply begonnen, maar moet deze nog bestellen. Door dit alles heb ik veel bijgeleerd over pcb design. Hierdoor zie ik veel problemen met mijn vorige ontwerp van de pcb voor de wled controller. Daarom ga ik deze volledig opnieuw maken, met vele verbeteringen.
+Enkele verbeteringen:
+*usb-c i.p.v. micro-usb (gemakkelijker en EU standaard)
+*verkleinde footprint
+*verbeterde wifi antenne design
+*goedkoper
+*(hopelijk kleiner)
+
+## aanmeldingen
+
+### 2/09/2025 
+aangemeld bij mevr. De Maeschalk
+1) uitleg nieuw design geschreven logboek
+2) nieuw design gestart
+3) basis schema opgestelt
