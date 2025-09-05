@@ -123,3 +123,9 @@ aangemeld bij mevr. De Maeschalk
 1) uitleg nieuw design geschreven logboek
 2) nieuw design gestart
 3) schema opstellen (esp32c3: bootstrap pins, input filtering caps. USB-c, 3.3V PSU )
+
+### 5/09/2025 
+aangemeld bij men. Van Hecke
+1) schema opstellen (buck converter 3-8s input voltage 5V@5A output LMR14050)
+2) TVS diode opzoekwerk over werking
+3) gewoon voor mijn eigen om te onthouden: https://www.lcsc.com/product-detail/C22463843.html
