@@ -127,5 +127,8 @@ aangemeld bij mevr. De Maeschalk
 ### 5/09/2025 
 aangemeld bij men. Van Hecke
 1) schema opstellen (buck converter 3-8s input voltage 5V@5A output LMR14050)
-2) TVS diode opzoekwerk over werking
+2) schottky diode opzoekwerk over werking
 3) gewoon voor mijn eigen om te onthouden: https://www.lcsc.com/product-detail/C22463843.html
+
+### 9/09/2025 
+1) schottky diode selectie, footprint, symbool overeen doen komen zodat we deze in het schema kunnen plaatsen
