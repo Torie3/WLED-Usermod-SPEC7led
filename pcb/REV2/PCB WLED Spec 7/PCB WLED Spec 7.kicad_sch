@@ -5,6 +5,238 @@
 	(uuid "2cf04447-81e4-4846-b345-735c04f87948")
 	(paper "A4")
 	(lib_symbols
+		(symbol "2450AT18A100E:2450AT18A100E"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "AE"
+				(at -2.7927 10.1861 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "2450AT18A100E"
+				(at -2.6609 -10.1575 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "2450AT18A100E:ANTC3216X140N"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "Johanson Technology"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "\n                        \n                            2.4GHz - Chip RF Antenna 2.4GHz ~ 2.5GHz 0.5dBi Solder Surface Mount\n                        \n"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "Package"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/2450AT18A100E/Johanson/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "IPC-7351B"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "1.3"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/2450AT18A100E/Johanson/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "2450AT18A100E"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "JOHANSON DESIGN"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "2450AT18A100E_0_0"
+				(polyline
+					(pts
+						(xy 0 2.54) (xy -2.667 8.001)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 8.001) (xy 0 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.413 8.001) (xy 0 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "B3U-1000P:B3U-1000P"
 			(pin_names
 				(offset 1.016)
@@ -3220,6 +3452,196 @@
 				)
 			)
 		)
+		(symbol "Transistor_BJT:BC807"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "BC807"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC808-D.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "0.8A Ic, 45V Vce, PNP Transistor, SOT-23"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "PNP Transistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BC807_0_1"
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -1.778) (xy 1.778 -2.286) (xy 1.27 -1.27) (xy 2.286 -1.778) (xy 2.286 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BC807_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 5.715)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:+BATT"
 			(power)
 			(pin_numbers hide)
@@ -3510,6 +3932,12 @@
 		(uuid "7e14639c-7baa-44c2-b5e1-3c617159fc44")
 	)
 	(junction
+		(at 256.54 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8614164b-08bf-4768-bc46-605fdb8b8d3d")
+	)
+	(junction
 		(at 172.72 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3582,6 +4010,12 @@
 		(uuid "bf379a7d-e303-474d-be38-f54b4c2c775b")
 	)
 	(junction
+		(at 266.7 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cc575a94-8226-498f-8408-c3d9aaa0bab1")
+	)
+	(junction
 		(at 154.94 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3606,6 +4040,12 @@
 		(uuid "dbe0cd33-f26e-43e1-84e0-09c01fec88f0")
 	)
 	(junction
+		(at 156.21 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "de151d00-499a-475d-97cd-ad2b4b423a47")
+	)
+	(junction
 		(at 116.84 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3618,12 +4058,32 @@
 		(uuid "f45f8eaa-976f-42b5-959a-29f1095ec4c8")
 	)
 	(no_connect
+		(at 205.74 74.93)
+		(uuid "095dd160-f946-41e8-a528-2521d608d91c")
+	)
+	(no_connect
+		(at 205.74 72.39)
+		(uuid "0ee7b384-9bf5-440d-9f4e-b53f30262705")
+	)
+	(no_connect
+		(at 205.74 57.15)
+		(uuid "1290e7fb-42af-4045-b06d-ebd878b14fab")
+	)
+	(no_connect
 		(at 160.02 41.91)
 		(uuid "1bc4e6ba-d308-4553-8f61-426f8a649eaf")
 	)
 	(no_connect
 		(at 187.96 34.29)
 		(uuid "3b0e3ee4-2be4-4647-89e0-06e3c011d019")
+	)
+	(no_connect
+		(at 205.74 52.07)
+		(uuid "4032d257-e55c-45f2-87e7-7f98f70fec78")
+	)
+	(no_connect
+		(at 205.74 54.61)
+		(uuid "6fab948b-3b88-413a-bd2a-9aa890f58e5b")
 	)
 	(no_connect
 		(at 160.02 59.69)
@@ -3646,16 +4106,42 @@
 		(uuid "ab4bf923-41a1-413f-8150-23907b621d18")
 	)
 	(no_connect
-		(at 160.02 49.53)
-		(uuid "c6aa1bcb-cb1e-493d-9ee2-38e43fd21761")
+		(at 205.74 64.77)
+		(uuid "af4d2595-2615-4f8a-8781-d3471f716af8")
 	)
 	(no_connect
 		(at 160.02 67.31)
 		(uuid "c8c60ea0-a623-4831-ac0e-b2e7180e9926")
 	)
 	(no_connect
+		(at 205.74 62.23)
+		(uuid "daff642d-e56f-48b0-819f-d65e69cc4bd4")
+	)
+	(no_connect
 		(at 160.02 69.85)
 		(uuid "e0126e4f-60c8-4a03-908f-9cdf3f58b411")
+	)
+	(no_connect
+		(at 205.74 49.53)
+		(uuid "e2e16557-3565-49bf-a367-45216920e82a")
+	)
+	(no_connect
+		(at 205.74 67.31)
+		(uuid "f5d4e89b-a259-4f02-ba4e-8ed76e34efff")
+	)
+	(no_connect
+		(at 205.74 69.85)
+		(uuid "fe7f41c6-57c7-49ff-8e19-0bfb95e8e714")
+	)
+	(wire
+		(pts
+			(xy 256.54 83.82) (xy 256.54 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03759979-b7ee-4089-b2b9-855fa0821dc3")
 	)
 	(wire
 		(pts
@@ -3746,6 +4232,16 @@
 			(type default)
 		)
 		(uuid "283e1d1b-511d-4299-aa01-37ce5f9776e6")
+	)
+	(wire
+		(pts
+			(xy 236.22 92.71) (xy 238.76 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2943cecb-538b-4dc0-8481-9037124e45d2")
 	)
 	(wire
 		(pts
@@ -3849,6 +4345,16 @@
 	)
 	(wire
 		(pts
+			(xy 266.7 129.54) (xy 266.7 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b23fbb3-ec9f-4d16-a013-f4d45ad2daac")
+	)
+	(wire
+		(pts
 			(xy 45.72 24.13) (xy 49.53 24.13)
 		)
 		(stroke
@@ -3936,6 +4442,16 @@
 			(type default)
 		)
 		(uuid "48c9ecdf-6c05-4807-9e91-40ef660986db")
+	)
+	(wire
+		(pts
+			(xy 256.54 99.06) (xy 256.54 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "492f9fc0-4f89-406d-b961-dbcbcd51fb56")
 	)
 	(wire
 		(pts
@@ -4029,6 +4545,46 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 49.53) (xy 160.02 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c02de90-4c6b-4621-ad75-b0e238b50ff9")
+	)
+	(wire
+		(pts
+			(xy 246.38 92.71) (xy 248.92 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d3d0c66-1e9a-47be-b1d5-5d2d3e4433d6")
+	)
+	(wire
+		(pts
+			(xy 266.7 128.27) (xy 266.7 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e5bf561-22ca-42b5-9bba-f26543372915")
+	)
+	(wire
+		(pts
+			(xy 256.54 107.95) (xy 256.54 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "617bcec1-58ec-4c2a-8a82-bce0cc20b18e")
+	)
+	(wire
+		(pts
 			(xy 267.97 59.69) (xy 271.78 59.69)
 		)
 		(stroke
@@ -4036,6 +4592,16 @@
 			(type default)
 		)
 		(uuid "63070d84-3fdd-4c01-b986-68fa4c1cfb35")
+	)
+	(wire
+		(pts
+			(xy 218.44 24.13) (xy 223.52 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "665991da-6d4f-4c3e-8a2d-5bdb383fe7ab")
 	)
 	(wire
 		(pts
@@ -4219,6 +4785,16 @@
 	)
 	(wire
 		(pts
+			(xy 256.54 99.06) (xy 261.62 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84a3b12b-0afa-4b4e-a494-31b0fa115026")
+	)
+	(wire
+		(pts
 			(xy 59.69 30.48) (xy 59.69 29.21)
 		)
 		(stroke
@@ -4259,6 +4835,26 @@
 	)
 	(wire
 		(pts
+			(xy 256.54 123.19) (xy 259.08 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c3cb14e-c8b5-4a71-968c-0a0e29c2babf")
+	)
+	(wire
+		(pts
+			(xy 266.7 114.3) (xy 266.7 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9113fd09-7d51-4810-a234-4b3819fe2c44")
+	)
+	(wire
+		(pts
 			(xy 49.53 111.76) (xy 52.07 111.76)
 		)
 		(stroke
@@ -4279,6 +4875,26 @@
 	)
 	(wire
 		(pts
+			(xy 266.7 129.54) (xy 271.78 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9673d551-880e-466f-8691-05956fb70e27")
+	)
+	(wire
+		(pts
+			(xy 266.7 138.43) (xy 266.7 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "972c4b82-ca29-4cef-bdc8-89d62cff2348")
+	)
+	(wire
+		(pts
 			(xy 114.3 29.21) (xy 116.84 29.21)
 		)
 		(stroke
@@ -4286,6 +4902,16 @@
 			(type default)
 		)
 		(uuid "99c16012-c84c-4df9-b518-b2426f8965fa")
+	)
+	(wire
+		(pts
+			(xy 256.54 97.79) (xy 256.54 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a7b8704-bb65-4d63-a1bc-e6cda7147845")
 	)
 	(wire
 		(pts
@@ -4549,6 +5175,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 39.37) (xy 156.21 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d79377de-0679-43e4-bccc-29e23cd49257")
+	)
+	(wire
+		(pts
 			(xy 26.67 142.24) (xy 34.29 142.24)
 		)
 		(stroke
@@ -4556,6 +5192,16 @@
 			(type default)
 		)
 		(uuid "d7ce7acb-55ce-4ac7-b691-4c6f33b22d8f")
+	)
+	(wire
+		(pts
+			(xy 246.38 123.19) (xy 248.92 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9d55f7c-53c3-4079-9da0-f7a57d65b8ec")
 	)
 	(wire
 		(pts
@@ -4847,6 +5493,28 @@
 			)
 		)
 	)
+	(global_label "LED1_IN"
+		(shape input)
+		(at 236.22 92.71 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "15e2fd9d-e201-4a17-927b-659ff149ac2e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 225.6753 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "5V_BUCK"
 		(shape input)
 		(at 45.72 76.2 0)
@@ -4926,6 +5594,28 @@
 		(uuid "3e51de76-310d-43ed-95cb-f3bbefe73d17")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 182.88 16.6091 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "5V_BUCK"
+		(shape input)
+		(at 256.54 83.82 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "44607b5a-fa70-44df-b513-833e6a80711e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 256.54 72.4286 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5045,6 +5735,50 @@
 			)
 		)
 	)
+	(global_label "LED1_IN"
+		(shape input)
+		(at 149.86 39.37 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5d6e7722-5bc4-44d8-97ac-8a6346586cd6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 139.3153 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "5V_BUCK"
+		(shape input)
+		(at 266.7 114.3 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "614c87ff-7ca3-4915-90f6-73d1e41ff66a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 266.7 102.9086 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "FB"
 		(shape input)
 		(at 53.34 129.54 180)
@@ -5133,6 +5867,28 @@
 			)
 		)
 	)
+	(global_label "LED2_IN"
+		(shape input)
+		(at 246.38 123.19 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7e424d02-3b44-4d9a-a01d-2571b13289b3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 235.8353 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Switching frequency"
 		(shape input)
 		(at 53.34 132.08 180)
@@ -5155,6 +5911,28 @@
 			)
 		)
 	)
+	(global_label "LED1_OUT"
+		(shape input)
+		(at 261.62 99.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "83b5e1a7-5b92-4ea0-a8ab-12ad7083e1c7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 273.858 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "USB_D+"
 		(shape input)
 		(at 59.69 43.18 0)
@@ -5168,6 +5946,28 @@
 		(uuid "89e5f2e4-b13b-407f-8a4e-3810adaa6feb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 70.2952 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LED2_OUT"
+		(shape input)
+		(at 271.78 129.54 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "90bf02fe-611a-4794-afdf-e85bd505f63e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 284.018 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5309,6 +6109,28 @@
 			)
 		)
 	)
+	(global_label "WIFI_ANT"
+		(shape input)
+		(at 218.44 24.13 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b8b55476-ff76-468c-bb4f-a9d18173641a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 207.3509 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "BOOT"
 		(shape input)
 		(at 157.48 46.99 180)
@@ -5388,6 +6210,28 @@
 		(uuid "d6d32ffb-d228-48db-9364-9b8659219a57")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 249.382 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LED2_IN"
+		(shape input)
+		(at 156.21 49.53 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d9edc5c0-2021-4e82-bb1a-391cf8f00fdf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 145.6653 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6114,7 +6958,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 268.9352 67.31 0)
 			(effects
 				(font
@@ -6836,7 +7680,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 247.65 38.1 0)
 			(effects
 				(font
@@ -6879,6 +7723,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 256.54 104.14 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3df3dcd9-9c52-4f0f-9183-8d8c96c0fb6e")
+		(property "Reference" "R13"
+			(at 259.08 102.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "R1k"
+			(at 259.08 105.4099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 258.318 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 256.54 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 256.54 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9ae4986a-bbc5-4498-a1de-9f91d6f35541")
+		)
+		(pin "1"
+			(uuid "3e376313-26dc-4e88-b68d-c622db041e10")
+		)
+		(instances
+			(project "PCB WLED Spec 7"
+				(path "/2cf04447-81e4-4846-b345-735c04f87948"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 237.49 41.91 0)
 		(unit 1)
@@ -6906,7 +7820,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 238.4552 45.72 0)
 			(effects
 				(font
@@ -6943,6 +7857,72 @@
 			(project ""
 				(path "/2cf04447-81e4-4846-b345-735c04f87948"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 266.7 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4877fd41-6410-4044-9973-9a94178f7426")
+		(property "Reference" "#PWR023"
+			(at 266.7 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 266.7 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 266.7 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 266.7 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 266.7 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f83703df-b6c4-499d-bbb8-46719b97b4b0")
+		)
+		(instances
+			(project "PCB WLED Spec 7"
+				(path "/2cf04447-81e4-4846-b345-735c04f87948"
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -7175,7 +8155,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 254.9652 45.72 0)
 			(effects
 				(font
@@ -7212,6 +8192,82 @@
 			(project "PCB WLED Spec 7"
 				(path "/2cf04447-81e4-4846-b345-735c04f87948"
 					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:BC807")
+		(at 264.16 123.19 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8011ba67-f895-441d-9d16-2896014b3c1a")
+		(property "Reference" "Q2"
+			(at 269.24 124.4601 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BC807"
+			(at 269.24 121.9201 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 269.24 121.285 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC808-D.pdf"
+			(at 264.16 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.8A Ic, 45V Vce, PNP Transistor, SOT-23"
+			(at 264.16 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "94a39885-3354-4f37-9c53-938fa8887394")
+		)
+		(pin "3"
+			(uuid "e9b6e749-cf22-4ad4-b7f5-4a9b91a13d51")
+		)
+		(pin "1"
+			(uuid "0341d14b-2bad-4f3a-9e90-f5465fba97bc")
+		)
+		(instances
+			(project "PCB WLED Spec 7"
+				(path "/2cf04447-81e4-4846-b345-735c04f87948"
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -7315,7 +8371,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 89.8652 87.63 0)
 			(effects
 				(font
@@ -7522,7 +8578,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 107.6452 132.08 0)
 			(effects
 				(font
@@ -7565,6 +8621,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_BJT:BC807")
+		(at 254 92.71 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "88616f77-3bbc-4933-a4d6-3d0aa6dadb19")
+		(property "Reference" "Q1"
+			(at 259.08 93.9801 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BC807"
+			(at 259.08 91.4401 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 259.08 90.805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC808-D.pdf"
+			(at 254 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.8A Ic, 45V Vce, PNP Transistor, SOT-23"
+			(at 254 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a2f62d67-da09-4b95-bf86-13b4addabdbb")
+		)
+		(pin "3"
+			(uuid "50212264-fc92-4580-86b6-ebea0eb25b4c")
+		)
+		(pin "1"
+			(uuid "63741d6c-41fb-4748-abc1-91e2b50acccd")
+		)
+		(instances
+			(project ""
+				(path "/2cf04447-81e4-4846-b345-735c04f87948"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 48.26 138.43 0)
 		(unit 1)
@@ -7592,7 +8724,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 49.2252 142.24 0)
 			(effects
 				(font
@@ -7662,7 +8794,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 97.4852 163.83 0)
 			(effects
 				(font
@@ -7812,6 +8944,72 @@
 			(project ""
 				(path "/2cf04447-81e4-4846-b345-735c04f87948"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 256.54 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "98b997f8-ecaa-44fc-92a6-64e48a893849")
+		(property "Reference" "#PWR022"
+			(at 256.54 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 256.54 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 256.54 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 256.54 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 256.54 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "68434a92-73ef-4f07-8ecf-837af1670165")
+		)
+		(instances
+			(project "PCB WLED Spec 7"
+				(path "/2cf04447-81e4-4846-b345-735c04f87948"
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -8049,7 +9247,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 92.202 59.69 90)
 			(effects
 				(font
@@ -8577,7 +9775,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 180.34 124.968 90)
 			(effects
 				(font
@@ -8629,7 +9827,7 @@
 		(dnp no)
 		(uuid "be82c88c-864c-45b7-8b4a-8b72867fbdda")
 		(property "Reference" "R6"
-			(at 153.67 40.132 90)
+			(at 153.924 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8637,14 +9835,14 @@
 			)
 		)
 		(property "Value" "R10k"
-			(at 153.416 41.656 90)
+			(at 153.924 42.164 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 153.67 42.672 90)
 			(effects
 				(font
@@ -8714,7 +9912,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 268.9352 45.72 0)
 			(effects
 				(font
@@ -8784,7 +9982,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 170.942 128.27 90)
 			(effects
 				(font
@@ -8986,7 +10184,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 157.988 34.29 90)
 			(effects
 				(font
@@ -9289,7 +10487,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 120.3452 41.91 0)
 			(effects
 				(font
@@ -9333,6 +10531,76 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 266.7 134.62 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dd036300-d76e-4388-a325-e14d90b9a62b")
+		(property "Reference" "R15"
+			(at 269.24 133.3499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "R1k"
+			(at 269.24 135.8899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 268.478 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 266.7 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 266.7 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "30a22204-53f1-4f87-ae7d-6d25ec98043e")
+		)
+		(pin "1"
+			(uuid "633792cb-28a7-4e0b-9ba7-c0b7c8a801a8")
+		)
+		(instances
+			(project "PCB WLED Spec 7"
+				(path "/2cf04447-81e4-4846-b345-735c04f87948"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 92.71 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9356,7 +10624,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 90.932 76.2 90)
 			(effects
 				(font
@@ -9393,6 +10661,252 @@
 			(project "PCB WLED Spec 7"
 				(path "/2cf04447-81e4-4846-b345-735c04f87948"
 					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "2450AT18A100E:2450AT18A100E")
+		(at 228.6 24.13 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e350b644-a26f-43a9-bcc2-766c5e061bf1")
+		(property "Reference" "AE1"
+			(at 237.49 22.7329 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2450AT18A100E"
+			(at 237.49 25.2729 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "2450AT18A100E:ANTC3216X140N"
+			(at 228.6 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 228.6 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Johanson Technology"
+			(at 228.6 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n                        \n                            2.4GHz - Chip RF Antenna 2.4GHz ~ 2.5GHz 0.5dBi Solder Surface Mount\n                        \n"
+			(at 228.6 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "Package"
+			(at 228.6 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 228.6 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/2450AT18A100E/Johanson/view-part/?ref=eda"
+			(at 228.6 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 228.6 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "1.3"
+			(at 228.6 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/2450AT18A100E/Johanson/view-part/?ref=snap"
+			(at 228.6 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "2450AT18A100E"
+			(at 228.6 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 228.6 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "JOHANSON DESIGN"
+			(at 228.6 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fb3fa5eb-f467-4688-aec1-6be6baf67373")
+		)
+		(instances
+			(project ""
+				(path "/2cf04447-81e4-4846-b345-735c04f87948"
+					(reference "AE1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 242.57 92.71 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e42f3f44-e044-47a9-b2ae-72d9e45f84ff")
+		(property "Reference" "R12"
+			(at 242.57 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R1k"
+			(at 242.57 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 242.57 94.488 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 242.57 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 242.57 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "77a93560-6660-4f11-a05d-c38dd049ca6d")
+		)
+		(pin "1"
+			(uuid "7f85e0ab-15bb-4883-a9f7-995fe658a537")
+		)
+		(instances
+			(project ""
+				(path "/2cf04447-81e4-4846-b345-735c04f87948"
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -9491,7 +11005,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 55.88 113.538 90)
 			(effects
 				(font
@@ -9570,7 +11084,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 117.8052 29.21 0)
 			(effects
 				(font
@@ -9637,6 +11151,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -9941,6 +11456,74 @@
 			(project "PCB WLED Spec 7"
 				(path "/2cf04447-81e4-4846-b345-735c04f87948"
 					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 252.73 123.19 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f82ba341-250b-4db9-8538-31c4e47becfe")
+		(property "Reference" "R14"
+			(at 252.73 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R1k"
+			(at 252.73 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 252.73 124.968 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 252.73 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 252.73 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "50dfaba1-4c3f-4284-9ed1-c9e6c7a2db15")
+		)
+		(pin "1"
+			(uuid "e982225c-e8ac-4e4d-bb29-0ad2d44d30eb")
+		)
+		(instances
+			(project "PCB WLED Spec 7"
+				(path "/2cf04447-81e4-4846-b345-735c04f87948"
+					(reference "R14")
 					(unit 1)
 				)
 			)
