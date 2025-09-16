@@ -3642,6 +3642,369 @@
 				)
 			)
 		)
+		(symbol "XRCGB40M000F1S1DR0:XRCGB40M000F1S1DR0"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Y"
+				(at -5.0878 3.8159 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "XRCGB40M000F1S1DR0"
+				(at -5.0944 -5.0944 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "XRCGB40M000F1S1DR0:OSC_XRCGB40M000F1S1DR0"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "Murata Electronics"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "0.7 mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "SMD-4 Murata"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/XRCGB40M000F1S1DR0/Murata/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "N/A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/XRCGB40M000F1S1DR0/Murata/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "XRCGB40M000F1S1DR0"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "\n                        \n                            Crystal 40MHz ±10ppm (Tol) ±10ppm (Stability) 12pF 50Ohm 4-Pin CSMD T/R\n                        \n"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Murata Electronics"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "XRCGB40M000F1S1DR0_0_0"
+				(polyline
+					(pts
+						(xy -2.3368 2.54) (xy -2.3368 -2.54)
+					)
+					(stroke
+						(width 0.4064)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.397 2.54) (xy -1.397 -2.54)
+					)
+					(stroke
+						(width 0.4064)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.397 2.54) (xy 1.397 2.54)
+					)
+					(stroke
+						(width 0.4064)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.397 -2.54) (xy -1.397 -2.54)
+					)
+					(stroke
+						(width 0.4064)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.397 2.54) (xy 1.397 -2.54)
+					)
+					(stroke
+						(width 0.4064)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.3368 2.54) (xy 2.3368 -2.54)
+					)
+					(stroke
+						(width 0.4064)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "custom:solder_pad"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "S"
+				(at 3.81 6.096 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "solder pad"
+				(at 13.462 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "custom:solder pad small"
+				(at 0.762 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "solder_pad_1_1"
+				(rectangle
+					(start 0 5.08)
+					(end 7.62 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin bidirectional line
+					(at -2.54 2.54 0)
+					(length 2.54)
+					(name "solder"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:+BATT"
 			(power)
 			(pin_numbers hide)
@@ -4010,12 +4373,6 @@
 		(uuid "bf379a7d-e303-474d-be38-f54b4c2c775b")
 	)
 	(junction
-		(at 266.7 129.54)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cc575a94-8226-498f-8408-c3d9aaa0bab1")
-	)
-	(junction
 		(at 154.94 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4305,6 +4662,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 167.64) (xy 144.78 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36da74bb-ec16-4e64-b13d-f08313e6b369")
+	)
+	(wire
+		(pts
 			(xy 116.84 20.32) (xy 116.84 21.59)
 		)
 		(stroke
@@ -4345,16 +4712,6 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 129.54) (xy 266.7 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b23fbb3-ec9f-4d16-a013-f4d45ad2daac")
-	)
-	(wire
-		(pts
 			(xy 45.72 24.13) (xy 49.53 24.13)
 		)
 		(stroke
@@ -4392,6 +4749,16 @@
 			(type default)
 		)
 		(uuid "43aabc90-3a9b-455c-afce-c7ba365b973c")
+	)
+	(wire
+		(pts
+			(xy 142.24 172.72) (xy 144.78 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44a19026-e94d-4e6e-b9c1-78ba3812ecc3")
 	)
 	(wire
 		(pts
@@ -4562,16 +4929,6 @@
 			(type default)
 		)
 		(uuid "5d3d0c66-1e9a-47be-b1d5-5d2d3e4433d6")
-	)
-	(wire
-		(pts
-			(xy 266.7 128.27) (xy 266.7 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5e5bf561-22ca-42b5-9bba-f26543372915")
 	)
 	(wire
 		(pts
@@ -4835,26 +5192,6 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 123.19) (xy 259.08 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c3cb14e-c8b5-4a71-968c-0a0e29c2babf")
-	)
-	(wire
-		(pts
-			(xy 266.7 114.3) (xy 266.7 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9113fd09-7d51-4810-a234-4b3819fe2c44")
-	)
-	(wire
-		(pts
 			(xy 49.53 111.76) (xy 52.07 111.76)
 		)
 		(stroke
@@ -4875,23 +5212,13 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 129.54) (xy 271.78 129.54)
+			(xy 140.97 182.88) (xy 144.78 182.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9673d551-880e-466f-8691-05956fb70e27")
-	)
-	(wire
-		(pts
-			(xy 266.7 138.43) (xy 266.7 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "972c4b82-ca29-4cef-bdc8-89d62cff2348")
+		(uuid "95965a74-4f08-4e8a-823c-58bb5968876b")
 	)
 	(wire
 		(pts
@@ -4932,6 +5259,16 @@
 			(type default)
 		)
 		(uuid "9ed9c417-1cb3-480a-8460-c7466224cb19")
+	)
+	(wire
+		(pts
+			(xy 142.24 157.48) (xy 144.78 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a20395a1-1f14-468c-936e-d2183bdc060f")
 	)
 	(wire
 		(pts
@@ -5195,16 +5532,6 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 123.19) (xy 248.92 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d9d55f7c-53c3-4079-9da0-f7a57d65b8ec")
-	)
-	(wire
-		(pts
 			(xy 45.72 36.83) (xy 49.53 36.83)
 		)
 		(stroke
@@ -5292,6 +5619,16 @@
 			(type default)
 		)
 		(uuid "eb1f93a0-99fd-458c-b71f-b2af37cd0363")
+	)
+	(wire
+		(pts
+			(xy 140.97 177.8) (xy 144.78 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee20589e-7d5f-4688-b702-e58a07f20bdf")
 	)
 	(wire
 		(pts
@@ -5383,6 +5720,16 @@
 		)
 		(uuid "fbe5a2eb-6660-4686-aa91-cb59adb6c9fc")
 	)
+	(wire
+		(pts
+			(xy 142.24 162.56) (xy 144.78 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "feff2a72-025e-4c40-9de0-a6c1ae0042ea")
+	)
 	(global_label "3.3V"
 		(shape input)
 		(at 156.21 29.21 90)
@@ -5418,6 +5765,28 @@
 		(uuid "05701f1f-46d6-4acc-a264-0a11f04cf999")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 35.56 90.9176 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PWM1"
+		(shape input)
+		(at 140.97 182.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "08205750-c07d-4d9f-90f4-ff0d473a58f1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 132.6025 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5506,6 +5875,28 @@
 		(uuid "15e2fd9d-e201-4a17-927b-659ff149ac2e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 225.6753 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LED1_OUT"
+		(shape input)
+		(at 140.97 177.8 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1a7ff07d-7bc1-455e-a0ba-5a442f798909")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 128.732 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5735,50 +6126,6 @@
 			)
 		)
 	)
-	(global_label "LED1_IN"
-		(shape input)
-		(at 149.86 39.37 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5d6e7722-5bc4-44d8-97ac-8a6346586cd6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 139.3153 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "5V_BUCK"
-		(shape input)
-		(at 266.7 114.3 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "614c87ff-7ca3-4915-90f6-73d1e41ff66a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 266.7 102.9086 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "FB"
 		(shape input)
 		(at 53.34 129.54 180)
@@ -5867,28 +6214,6 @@
 			)
 		)
 	)
-	(global_label "LED2_IN"
-		(shape input)
-		(at 246.38 123.19 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7e424d02-3b44-4d9a-a01d-2571b13289b3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 235.8353 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "Switching frequency"
 		(shape input)
 		(at 53.34 132.08 180)
@@ -5946,28 +6271,6 @@
 		(uuid "89e5f2e4-b13b-407f-8a4e-3810adaa6feb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 70.2952 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "LED2_OUT"
-		(shape input)
-		(at 271.78 129.54 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "90bf02fe-611a-4794-afdf-e85bd505f63e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 284.018 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6175,6 +6478,28 @@
 			)
 		)
 	)
+	(global_label "LED1_IN"
+		(shape input)
+		(at 156.21 49.53 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c81c0c7a-9269-435f-a11d-3283d1e0606a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 145.6653 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "VDDA"
 		(shape input)
 		(at 193.04 31.75 90)
@@ -6210,28 +6535,6 @@
 		(uuid "d6d32ffb-d228-48db-9364-9b8659219a57")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 249.382 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "LED2_IN"
-		(shape input)
-		(at 156.21 49.53 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d9edc5c0-2021-4e82-bb1a-391cf8f00fdf")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 145.6653 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6329,6 +6632,28 @@
 			)
 		)
 	)
+	(global_label "PWM1"
+		(shape input)
+		(at 149.86 39.37 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e5ccb325-a766-499b-8548-f458f368a679")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 141.4925 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "VDD3P3"
 		(shape input)
 		(at 172.72 31.75 90)
@@ -6386,6 +6711,28 @@
 		(uuid "fb90376d-4691-4d69-b111-1a7bf5ee8a6f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 15.3391 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "5V_BUCK"
+		(shape input)
+		(at 142.24 167.64 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fee2eca6-913b-41ae-a55a-e8ada99fae89")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 130.8486 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6822,7 +7169,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 53.34 44.958 90)
 			(effects
 				(font
@@ -6931,6 +7278,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 142.24 172.72 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1f08ea54-3b7c-4aba-a035-ed2cc5443088")
+		(property "Reference" "#PWR026"
+			(at 135.89 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 138.43 172.7199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.24 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 142.24 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "14ef5397-7ddb-446e-bf59-6a4e6cf9cc4c")
+		)
+		(instances
+			(project "PCB WLED Spec 7"
+				(path "/2cf04447-81e4-4846-b345-735c04f87948"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 267.97 63.5 0)
 		(unit 1)
@@ -6995,6 +7409,73 @@
 			(project "PCB WLED Spec 7"
 				(path "/2cf04447-81e4-4846-b345-735c04f87948"
 					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 142.24 157.48 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "20ad0d22-4e32-4d5c-b8aa-e69d40895233")
+		(property "Reference" "#PWR024"
+			(at 146.05 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 138.43 157.4799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.24 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 142.24 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d601c727-1c43-48cd-9d49-20bc792d201b")
+		)
+		(instances
+			(project "PCB WLED Spec 7"
+				(path "/2cf04447-81e4-4846-b345-735c04f87948"
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -7385,6 +7866,73 @@
 		)
 	)
 	(symbol
+		(lib_id "custom:solder_pad")
+		(at 147.32 175.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "319d96d4-6fb2-4753-927e-4d33b82d046e")
+		(property "Reference" "S6"
+			(at 156.21 171.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "solder pad"
+			(at 156.21 173.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "custom:solder pad small"
+			(at 148.082 177.292 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 147.32 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9d65d5f1-9867-4fba-87a4-6e1e8f98c544")
+		)
+		(instances
+			(project "PCB WLED Spec 7"
+				(path "/2cf04447-81e4-4846-b345-735c04f87948"
+					(reference "S6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 53.34 38.1 90)
 		(unit 1)
@@ -7409,7 +7957,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 53.34 39.878 90)
 			(effects
 				(font
@@ -7612,7 +8160,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 53.34 27.432 90)
 			(effects
 				(font
@@ -7864,72 +8412,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 266.7 139.7 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4877fd41-6410-4044-9973-9a94178f7426")
-		(property "Reference" "#PWR023"
-			(at 266.7 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 266.7 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 266.7 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 266.7 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 266.7 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f83703df-b6c4-499d-bbb8-46719b97b4b0")
-		)
-		(instances
-			(project "PCB WLED Spec 7"
-				(path "/2cf04447-81e4-4846-b345-735c04f87948"
-					(reference "#PWR023")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 88.9 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7989,6 +8471,73 @@
 			(project "PCB WLED Spec 7"
 				(path "/2cf04447-81e4-4846-b345-735c04f87948"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 142.24 162.56 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "51204147-2044-477c-91b9-e07af748d962")
+		(property "Reference" "#PWR025"
+			(at 135.89 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 138.43 162.5599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.24 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 142.24 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1380a46e-8ed8-420f-9b2a-745e0e735ea9")
+		)
+		(instances
+			(project "PCB WLED Spec 7"
+				(path "/2cf04447-81e4-4846-b345-735c04f87948"
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -8198,82 +8747,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:BC807")
-		(at 264.16 123.19 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8011ba67-f895-441d-9d16-2896014b3c1a")
-		(property "Reference" "Q2"
-			(at 269.24 124.4601 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BC807"
-			(at 269.24 121.9201 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 269.24 121.285 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC808-D.pdf"
-			(at 264.16 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.8A Ic, 45V Vce, PNP Transistor, SOT-23"
-			(at 264.16 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "94a39885-3354-4f37-9c53-938fa8887394")
-		)
-		(pin "3"
-			(uuid "e9b6e749-cf22-4ad4-b7f5-4a9b91a13d51")
-		)
-		(pin "1"
-			(uuid "0341d14b-2bad-4f3a-9e90-f5465fba97bc")
-		)
-		(instances
-			(project "PCB WLED Spec 7"
-				(path "/2cf04447-81e4-4846-b345-735c04f87948"
-					(reference "Q2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 128.27 135.89 0)
 		(unit 1)
@@ -8338,6 +8811,73 @@
 			(project ""
 				(path "/2cf04447-81e4-4846-b345-735c04f87948"
 					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "custom:solder_pad")
+		(at 147.32 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "82c3fb3e-772d-44ec-9494-4d005e5b4115")
+		(property "Reference" "S5"
+			(at 156.21 166.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "solder pad"
+			(at 156.21 168.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "custom:solder pad small"
+			(at 148.082 172.212 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 147.32 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a397e408-f23d-47c3-8c9e-347e03d067ef")
+		)
+		(instances
+			(project "PCB WLED Spec 7"
+				(path "/2cf04447-81e4-4846-b345-735c04f87948"
+					(reference "S5")
 					(unit 1)
 				)
 			)
@@ -9043,7 +9583,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 35.2552 142.24 0)
 			(effects
 				(font
@@ -9110,7 +9650,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 53.34 33.528 90)
 			(effects
 				(font
@@ -9180,7 +9720,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 25.7048 142.24 0)
 			(effects
 				(font
@@ -9750,6 +10290,73 @@
 		)
 	)
 	(symbol
+		(lib_id "custom:solder_pad")
+		(at 147.32 185.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b9e91da9-c590-4de0-ab91-9797f699c929")
+		(property "Reference" "S8"
+			(at 156.21 181.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "solder pad"
+			(at 156.21 184.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "custom:solder pad small"
+			(at 148.082 187.452 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 147.32 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2d41ab81-0fa8-43b0-a439-124ae3452fda")
+		)
+		(instances
+			(project "PCB WLED Spec 7"
+				(path "/2cf04447-81e4-4846-b345-735c04f87948"
+					(reference "S8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 180.34 123.19 90)
 		(unit 1)
@@ -10227,6 +10834,73 @@
 		)
 	)
 	(symbol
+		(lib_id "custom:solder_pad")
+		(at 147.32 165.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ce74365e-931f-4f97-a934-a86f79b79338")
+		(property "Reference" "S4"
+			(at 156.21 161.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "solder pad"
+			(at 156.21 163.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "custom:solder pad small"
+			(at 148.082 167.132 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 147.32 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "462a0b84-f909-4717-b2a5-501e2d9bbc85")
+		)
+		(instances
+			(project "PCB WLED Spec 7"
+				(path "/2cf04447-81e4-4846-b345-735c04f87948"
+					(reference "S4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "MCU_Espressif:ESP32-C3")
 		(at 182.88 59.69 0)
 		(unit 1)
@@ -10531,76 +11205,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 266.7 134.62 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dd036300-d76e-4388-a325-e14d90b9a62b")
-		(property "Reference" "R15"
-			(at 269.24 133.3499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "R1k"
-			(at 269.24 135.8899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 268.478 134.62 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 266.7 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 266.7 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "30a22204-53f1-4f87-ae7d-6d25ec98043e")
-		)
-		(pin "1"
-			(uuid "633792cb-28a7-4e0b-9ba7-c0b7c8a801a8")
-		)
-		(instances
-			(project "PCB WLED Spec 7"
-				(path "/2cf04447-81e4-4846-b345-735c04f87948"
-					(reference "R15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 92.71 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10661,6 +11265,73 @@
 			(project "PCB WLED Spec 7"
 				(path "/2cf04447-81e4-4846-b345-735c04f87948"
 					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "custom:solder_pad")
+		(at 147.32 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e0cf2e04-ef66-43a7-9e5d-7726b84a1fde")
+		(property "Reference" "S3"
+			(at 156.21 156.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "solder pad"
+			(at 156.21 158.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "custom:solder pad small"
+			(at 148.082 162.052 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 147.32 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a086f74d-e747-48a9-a990-726be7e66f8b")
+		)
+		(instances
+			(project ""
+				(path "/2cf04447-81e4-4846-b345-735c04f87948"
+					(reference "S3")
 					(unit 1)
 				)
 			)
@@ -11285,7 +11956,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "custom:TECHFUSE SL1050-100M"
 			(at 120.65 132.08 0)
 			(effects
 				(font
@@ -11462,33 +12133,43 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 252.73 123.19 90)
+		(lib_id "XRCGB40M000F1S1DR0:XRCGB40M000F1S1DR0")
+		(at 148.59 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f82ba341-250b-4db9-8538-31c4e47becfe")
-		(property "Reference" "R14"
-			(at 252.73 116.84 90)
+		(uuid "f075fcb6-56f4-46b0-ae4f-a3e32b3809d5")
+		(property "Reference" "Y1"
+			(at 148.59 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "R1k"
-			(at 252.73 119.38 90)
+		(property "Value" "XRCGB40M000F1S1DR0"
+			(at 148.59 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 252.73 124.968 90)
+		(property "Footprint" "XRCGB40M000F1S1DR0:OSC_XRCGB40M000F1S1DR0"
+			(at 148.59 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11496,8 +12177,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 252.73 123.19 0)
+		(property "Description" ""
+			(at 148.59 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11505,25 +12186,203 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 252.73 123.19 0)
+		(property "MF" "Murata Electronics"
+			(at 148.59 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "50dfaba1-4c3f-4284-9ed1-c9e6c7a2db15")
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.7 mm"
+			(at 148.59 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "SMD-4 Murata"
+			(at 148.59 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 148.59 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/XRCGB40M000F1S1DR0/Murata/view-part/?ref=eda"
+			(at 148.59 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 148.59 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "N/A"
+			(at 148.59 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/XRCGB40M000F1S1DR0/Murata/view-part/?ref=snap"
+			(at 148.59 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "XRCGB40M000F1S1DR0"
+			(at 148.59 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n                        \n                            Crystal 40MHz ±10ppm (Tol) ±10ppm (Stability) 12pF 50Ohm 4-Pin CSMD T/R\n                        \n"
+			(at 148.59 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 148.59 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Murata Electronics"
+			(at 148.59 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "e982225c-e8ac-4e4d-bb29-0ad2d44d30eb")
+			(uuid "12e0858f-a65a-49f8-b99a-1ebf639384a5")
+		)
+		(pin "3"
+			(uuid "06d1f780-1e73-4553-9b85-d93f95a7fa15")
+		)
+		(instances
+			(project ""
+				(path "/2cf04447-81e4-4846-b345-735c04f87948"
+					(reference "Y1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "custom:solder_pad")
+		(at 147.32 180.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f7f2c86a-7d50-44fa-bc26-b2e01e4cbfee")
+		(property "Reference" "S7"
+			(at 156.21 176.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "solder pad"
+			(at 156.21 179.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "custom:solder pad small"
+			(at 148.082 182.372 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 147.32 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9bfbec91-a9f7-44c8-aeef-5b9b37843ca9")
 		)
 		(instances
 			(project "PCB WLED Spec 7"
 				(path "/2cf04447-81e4-4846-b345-735c04f87948"
-					(reference "R14")
+					(reference "S7")
 					(unit 1)
 				)
 			)

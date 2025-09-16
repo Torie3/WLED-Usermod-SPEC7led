@@ -139,3 +139,7 @@ aangemeld bij men. Van Hecke
 
 ### 16/09/2025 
 aanmelding: Mevr. Claeys afwezig => aan Brian Goethals gevraagd om tegen de studie-leerkracht mij op aanwezig te zetten. (Ik heb de school zelfs niet verlaten, want ik was op de leerlingenraad.)
+1) Schema afgewerkt
+2) footprint voor spoel gemaakt
+3) Edge cuts pcb
+4) begin lay-out
