@@ -132,3 +132,10 @@ aangemeld bij men. Van Hecke
 
 ### 9/09/2025 
 1) schottky diode selectie, footprint, symbool overeen doen komen zodat we deze in het schema kunnen plaatsen
+
+### 12/09/2025 
+1) logic level converter 3.3v (esp32c3) => 5V (WS218B leds) schema
+2) footprints toewijzen
+
+### 16/09/2025 
+aanmelding: Mevr. Claeys afwezig => aan Brian Goethals gevraagd om tegen de studie-leerkracht mij op aanwezig te zetten. (Ik heb de school zelfs niet verlaten, want ik was op de leerlingenraad.)
