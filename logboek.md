@@ -143,3 +143,11 @@ aanmelding: Mevr. Claeys afwezig => aan Brian Goethals gevraagd om tegen de stud
 2) footprint voor spoel gemaakt
 3) Edge cuts pcb
 4) begin lay-out
+
+### 19/09/2025 
+Afwezig wegens ziekte
+
+### 16/09/2025 
+aanmelding: Mevr. Claeys afwezig => aan Brian Goethals gevraagd om tegen de studie-leerkracht mij op aanwezig te zetten.
+1) Fouten gevonden in schema (load capacitors, connecties voor crystal oscillator niet aanwezig en een paar filtering caps vergeten voor de esp32C3) en deze dan opgelost
+2) PCB layout verder
