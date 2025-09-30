@@ -147,7 +147,14 @@ aanmelding: Mevr. Claeys afwezig => aan Brian Goethals gevraagd om tegen de stud
 ### 19/09/2025 
 Afwezig wegens ziekte
 
-### 16/09/2025 
+### 22/09/2025 
 aanmelding: Mevr. Claeys afwezig => aan Brian Goethals gevraagd om tegen de studie-leerkracht mij op aanwezig te zetten.
 1) Fouten gevonden in schema (load capacitors, connecties voor crystal oscillator niet aanwezig en een paar filtering caps vergeten voor de esp32C3) en deze dan opgelost
 2) PCB layout verder
+
+### 26/09/2025
+vervangles mevrouw Deleu chemie
+
+### 30/09/2025
+1) volledig pcb geroute (koper connecties op plaatje gezet)
+2) enkele 3d modellen van onderdelen toegevoegd 
