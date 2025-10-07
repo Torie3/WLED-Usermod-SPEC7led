@@ -158,3 +158,12 @@ vervangles mevrouw Deleu chemie
 ### 30/09/2025
 1) volledig pcb geroute (koper connecties op plaatje gezet)
 2) enkele 3d modellen van onderdelen toegevoegd 
+
+### 03/10/2025
+1) uitleg aan meneer Van Hecke
+
+### 07/10/2025
+1) routing aanpassen zodat er een hoger oppervlak ground is 
+2) threading via's toevoegen
+3) silckscreen
+4) drc 
