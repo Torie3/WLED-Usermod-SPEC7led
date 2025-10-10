@@ -167,3 +167,8 @@ vervangles mevrouw Deleu chemie
 2) threading via's toevoegen
 3) silckscreen
 4) drc 
+
+### 10/10/2025
+1) kleine verandering routing
+2) renders maken
+3) laptop afgesloten wegens lang gebruikt s'ochtends en batterij bijna plat => overhouden voor andere lessen (ondertussen chemie gedaan)
