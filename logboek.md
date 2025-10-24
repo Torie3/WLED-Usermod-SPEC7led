@@ -172,3 +172,15 @@ vervangles mevrouw Deleu chemie
 1) kleine verandering routing
 2) renders maken
 3) laptop afgesloten wegens lang gebruikt s'ochtends en batterij bijna plat => overhouden voor andere lessen (ondertussen chemie gedaan)
+
+### 14/10/2025
+klassenraden
+
+### 17/10/2025
+1) gewerkt aan eindproject, want vorige project af (binnekort pcb bestellen)
+
+### 21/10/2025
+For Rosa theater
+
+### 24/10/2025
+eindwerk
