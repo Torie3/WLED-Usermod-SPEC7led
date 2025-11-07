@@ -184,3 +184,9 @@ For Rosa theater
 
 ### 24/10/2025
 eindwerk
+
+### 4/11/2025
+EOC ontwerp in Inventor
+
+### 7/11/2025
+1) installeren stm32cubeide voor vscode 2) lezen over ADC conversions, single channel, multiple channel, met en zonder DMA
