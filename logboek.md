@@ -190,3 +190,34 @@ EOC ontwerp in Inventor
 
 ### 7/11/2025
 1) installeren stm32cubeide voor vscode 2) lezen over ADC conversions, single channel, multiple channel, met en zonder DMA
+
+### 14/11/2025
+
+1) installeren cubemx
+2) vrije timer pins selecteren voor motors G4 target
+3) rest van g4 target pinout
+
+### 18/11/2025
+
+1) opstarten van usb communicatie stm32-chip => pc
+
+### 21/11/2025
+
+1) bepalen telemetry data over usb communicatie
+2) bepalen van testen voor eindwerk
+
+### 5/01/2026
+
+1) korte tekst geschreven voor EOC over moment en verschillende soorten van moment(Want ik had de benodigde programma's niet op mijn laptop staan om verder te prugrammeren)
+
+### 9/01/2026
+
+1) library schrijven voor ADC thermistors a.d.h.v. DMA
+
+### 12/01/2026
+
+1) library schrijven voor ADC thermistors a.d.h.v. DMA
+
+### 16/01/2026
+
+1) library schrijven voor ADC thermistors a.d.h.v. DMA (tenzij er bugs in zitten is dit afgewerkt)
