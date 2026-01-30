@@ -221,3 +221,20 @@ EOC ontwerp in Inventor
 ### 16/01/2026
 
 1) library schrijven voor ADC thermistors a.d.h.v. DMA (tenzij er bugs in zitten is dit afgewerkt)
+
+### 20/01/2026
+
+1) Schrijven van programma om data op te slaan op de flash chip terwijl de testen bezig zijn (veel werk en gaat de volgende lessen nog aan gewerkt worden)
+
+### 23/01/2026
+
+1) Data flash library aangepast zodat er geen problemen kunnen zijn met de alignment van data
+
+## 27/01/2026
+
+1) Data flash library aanpassen zodat pakketen makkelijk uitgelezen kunnen worden
+
+## 30/01/2026
+
+1) Code geschreven die data uitleest en opslaat op flash chip (packets aan telemetry data)
+2) Code geschreven die die op het einde van de test over USB naar een computer kan versturen
