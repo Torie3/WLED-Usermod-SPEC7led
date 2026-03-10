@@ -304,3 +304,18 @@ EOC ontwerp in Inventor
 
 1. Code geschreven die de data van de HX711 uitleest in test mode
 2. Code geschreven die test 1 start
+
+projectweek + vakantie
+
+## 2/03/2026
+
+1. opslag data verder in orde brengen (is een huzarenwerkje dat maar niet wil lukken)
+
+## 6/03/2026
+
+1. toespraak directeur
+2. verder de data-opslag aanpakken
+
+## 10/03/2026
+
+1. data transer met pc en pcb deels in orde gebracht aan pcb kant
