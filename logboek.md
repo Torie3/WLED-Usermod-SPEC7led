@@ -318,4 +318,8 @@ projectweek + vakantie
 
 ## 10/03/2026
 
-1. data transer met pc en pcb deels in orde gebracht aan pcb kant
+1. data transfer met pc en pcb deels in orde gebracht aan pcb kant
+
+## 13/03/2026
+
+1. python dataverwerking aan pc kant
