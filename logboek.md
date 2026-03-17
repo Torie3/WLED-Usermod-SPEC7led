@@ -323,3 +323,11 @@ projectweek + vakantie
 ## 13/03/2026
 
 1. python dataverwerking aan pc kant
+
+## 17/03/2026
+
+1. deel code opgekuist
+2. backup van code gemaakt
+
+
+
