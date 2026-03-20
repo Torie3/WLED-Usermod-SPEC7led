@@ -329,5 +329,6 @@ projectweek + vakantie
 1. deel code opgekuist
 2. backup van code gemaakt
 
+## 20/03/2026
 
-
+1.vervangles chemie
