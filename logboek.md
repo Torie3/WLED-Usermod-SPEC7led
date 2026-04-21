@@ -341,4 +341,9 @@ lesuur 2: in studie gezeten wegens anders op afwezig gezet
 ## 31/03/2026
 
 lesuur 1: vervangles geschiedenis (maar anderen hadden toets dus ik heb enkele krantenartikels gelezen)
-lesuur 2: zoeken van onderdelen voor nieuwe fc, is ambetant want trouwe icm42688p zit met een tekort
+lesuur 2: zoeken van onderdelen voor nieuwe fc, is irritant want trouwe icm42688p zit met een tekort
+
+## 21/04/2026
+
+1) mail gestuurd voor regeling Engels naar nieuwe leerkracht Engels
+2) stm32 sbus library schrijven
