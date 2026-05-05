@@ -347,3 +347,11 @@ lesuur 2: zoeken van onderdelen voor nieuwe fc, is irritant want trouwe icm42688
 
 1) mail gestuurd voor regeling Engels naar nieuwe leerkracht Engels
 2) stm32 sbus library schrijven
+
+## 24/04/2026
+
+1) stm32 ultrasone library geschreven
+2) onderzoek naar onderdeel wat het is (blijkt solenoide te zijn)
+
+## 5/05/2026
+1) buck converters voor 5V op FC afgewerkt en begonnen aan 12v (berekeningen, component selectie)
